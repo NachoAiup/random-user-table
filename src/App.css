@@ -1,0 +1,40 @@
+#root {
+  text-align: center;
+  width: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #242424;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+button {
+  background: black;
+  color: white;
+  margin: 5px;
+}
+
+.rows:nth-child(even) {
+  background: #817f7f;
+}
+.rows:nth-child(odd) {
+  background: #575656;
+}
